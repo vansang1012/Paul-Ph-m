@@ -1,0 +1,847 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>LittleAngel - Store eCommerce HTML5 Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/nice-select.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+
+        <!-- header-area -->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="top-cta">
+                                <p><i class="ti-headphone-alt"></i> 000 969 962 986 / 000 555 666 888</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="header-top-right text-right">
+                                <ul>
+                                    <li><a href="index.html#"><i class="ti-user"></i>Login</a></li>
+                                    <li>
+                                        <select name="name" class="selected">
+                                            <option value="">USD</option>
+                                            <option value="">EUR</option>
+                                            <option value="">AUD</option>
+                                            <option value="">INR</option>
+                                        </select>
+                                    </li>
+                                    <li>
+                                        <select name="name" class="selected-second">
+                                            <option value="">English</option>
+                                            <option value="">Spanish</option>
+                                            <option value="">German</option>
+                                        </select>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="header-sticky" class="menu-area pt-15 pb-15">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2 col-md-3">
+                            <div class="logo-area">
+                                <a href="index.html#"><img src="img/logo/logo.png" alt="img"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6">
+                            <div class="main-menu text-right">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="contact.html">Contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 d-none d-md-block">
+                            <div class="menu-icon text-right">
+                                <ul>
+                                    <li><a href="index.html#" data-toggle="modal" data-target="#search-modal"><i class="ti-search"></i></a></li>
+                                    <li><a href="index.html#" class="shop-cart"><span>1</span><i class="ti-shopping-cart"></i></a>
+                                        <ul class="minicart">
+                                            <li>
+                                                <div class="cart-img">
+                                                    <a href="product-details.html">
+                                                        <img src="img/product/feature_p01.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="cart-content">
+                                                    <h3>
+                                                        <a href="product-details.html">Black &amp; White Shoes</a>
+                                                    </h3>
+                                                    <div class="cart-price">
+                                                        <span class="new">$229.9</span>
+                                                        <span>
+                                                            <del>$229.9</del>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="del-icon">
+                                                    <a href="index.html#">
+                                                        <i class="far fa-trash-alt"></i>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="total-price">
+                                                    <span class="f-left">Total:</span>
+                                                    <span class="f-right">$239.9</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="checkout-link">
+                                                    <a href="cart.html">Shopping Cart</a>
+                                                    <a class="red-color" href="checkout.html">Checkout</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Modal Search -->
+                            <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <form>
+                                            <input type="text" placeholder="Search here...">
+                                            <button><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header-area-end -->
+        <!-- main-area -->
+        <main>
+            <!-- slider-area -->
+            <section class="slider-area">
+                <div class="slider-active">
+                    <div class="single-slider slider-bg d-flex align-items-center" style="background-image:url('img/slider/slider_bg.png')">
+                        <div class="slider-shape s-shape-1"><img src="img/shape/slider_shape01.png" alt="shape"></div>
+                        <div class="slider-shape s-shape-2"><img src="img/shape/slider_shape01.png" alt="shape"></div>
+                        <div class="slider-shape s-shape-3"><img src="img/shape/slider_shape02.png" alt="shape"></div>
+                        <div class="slider-shape s-shape-4"><img src="img/shape/slider_shape02.png" alt="shape"></div>
+                        <div class="slider-shape s-shape-5"><img src="img/shape/slider_shape02.png" alt="shape"></div>
+                        <div class="slider-shape s-shape-6"><img src="img/shape/slider_shape01.png" alt="shape"></div>
+                        <div class="slider-shape s-shape-7"><img src="img/shape/slider_shape01.png" alt="shape"></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-xl-8 col-lg-10">
+                                    <div class="slider-content text-center">
+                                        <h2 data-animation="fadeInUp" data-delay=".2s">Excusive Summer Collection</h2>
+                                        <div class="slider-btn" data-animation="fadeInUp" data-delay=".4s">
+                                            <a href="index.html#" class="btn">Shop Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- slider-area-end -->
+            <!-- collection-area -->
+            <section class="collection-area pt-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-collect mb-30 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="collect-thumb">
+                                    <a href="index.html#"><img src="img/collection/collection_img01.jpg" alt="img"></a>
+                                </div>
+                                <div class="collect-content green-bg">
+                                    <h4><a href="index.html#"><i class="fas fa-star"></i>Kids Collection</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-collect mb-30 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="collect-thumb">
+                                    <a href="index.html#"><img src="img/collection/collection_img02.jpg" alt="img"></a>
+                                </div>
+                                <div class="collect-content blue-bg">
+                                    <h4><a href="index.html#"><i class="fas fa-star"></i>Kids Collection</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="single-collect mb-30 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="collect-thumb">
+                                    <a href="index.html#"><img src="img/collection/collection_img03.jpg" alt="img"></a>
+                                </div>
+                                <div class="collect-content pink-bg">
+                                    <h4><a href="index.html#"><i class="fas fa-star"></i>Kids Collection</a></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- collection-area-end -->
+            <!-- shop-area -->
+            <section class="shop-area pt-70 pb-40 p-relative">
+                <div class="arrivals-shape d-none d-xl-block"><img src="img/shape/arrivals_shape.png" alt="shape"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-8 col-md-10">
+                            <div class="section-title text-center mb-60">
+                                <h2>New Arrivals</h2>
+                                <p>Kids ipsum dolor sit amet, consectetur adipisicing elit, ed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqenim</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_01.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Blue Dress</a></h4>
+                                    <div class="price">
+                                        <span>$55.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_02.jpg" alt="items"></a>
+                                    <span>Sale</span>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Green T-shirt</a></h4>
+                                    <div class="price">
+                                        <span class="old-price">$69.00</span>
+                                        <span>$55.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_03.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Green T-shirt</a></h4>
+                                    <div class="price">
+                                        <span>$75.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_04.jpg" alt="items"></a>
+                                    <span>Sale</span>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Pink Dress</a></h4>
+                                    <div class="price">
+                                        <span class="old-price">$69.00</span>
+                                        <span>$59.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_05.jpg" alt="items"></a>
+                                    <span>Sale</span>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Pink Dress</a></h4>
+                                    <div class="price">
+                                        <span class="old-price">$55.00</span>
+                                        <span>$45.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_06.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Dedee Cozy</a></h4>
+                                    <div class="price">
+                                        <span>$49.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_07.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Blue Dress</a></h4>
+                                    <div class="price">
+                                        <span>$65.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/shop/product_08.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Activity Toys</a></h4>
+                                    <div class="price">
+                                        <span>$59.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- shop-area-end -->
+            <!-- offer-area -->
+            <section class="offer-area offer-bg pt-55 pb-50" style="background-image:url('img/bg/offer_bg.jpg')">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="offer-content text-center">
+                                <div class="percent-wrap">
+                                    <img src="img/shape/cloud_shape.png" alt="shape">
+                                    <h3>60%</h3>
+                                </div>
+                                <h2>Off For <br> Kids Collection</h2>
+                                <a href="index.html#" class="btn">View Collection</a>
+                                <div class="time-count mt-50">
+                                    <div class="offer-time" data-countdown="2019/11/01"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- offer-area-end -->
+            <!-- feature-product -->
+            <section class="features-product p-relative fix pt-95 pb-40">
+                <div class="features-shape d-none d-lg-block wow slideInDown" data-wow-delay="0.2s"><img src="img/shape/features_cartoon.png" alt="img"></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-8 col-md-10">
+                            <div class="section-title text-center mb-60">
+                                <h2>Featured Products</h2>
+                                <p>Kids ipsum dolor sit amet, consectetur adipisicing elit, ed do eiusmod tempor incididunt ut labore et
+                                    dolore magna aliqenim</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p01.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Blue Dress</a></h4>
+                                    <div class="price">
+                                        <span>$55.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p02.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Blue T-shirt</a></h4>
+                                    <div class="price">
+                                        <span>$75.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p03.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Pink Dress</a></h4>
+                                    <div class="price">
+                                        <span>$45.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p04.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Teddy Bear</a></h4>
+                                    <div class="price">
+                                        <span>$59.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p05.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Blue Dress</a></h4>
+                                    <div class="price">
+                                        <span>$29.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p06.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Green T-shirt</a></h4>
+                                    <div class="price">
+                                        <span>$69.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p07.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Green T-shirt</a></h4>
+                                    <div class="price">
+                                        <span>$55.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="shop-products mb-55">
+                                <div class="sp-thumb">
+                                    <a href="index.html#"><img src="img/product/feature_p08.jpg" alt="items"></a>
+                                    <div class="product-action">
+                                        <div class="button-left">
+                                            <ul>
+                                                <li><a href="index.html#" class="pink-bg"><i class="ti-control-shuffle"></i></a></li>
+                                                <li><a href="index.html#" class="blue-bg"><i class="ti-eye"></i></a></li>
+                                                <li><a href="index.html#" class="green-bg"><i class="ti-heart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cart-button">
+                                            <a href="index.html#" class="btn">Add To Cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-content text-center">
+                                    <h4><a href="index.html#">Dedee Cozy</a></h4>
+                                    <div class="price">
+                                        <span>$15.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- feature-product-end -->
+            <!-- new-collection -->
+            <section class="new-collection collection-bg pt-100 pb-100" style="background-image:url('img/bg/n_collection_bg.jpg')">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-lg-8 col-md-10">
+                            <div class="section-title collection-title text-center">
+                                <h2 class="wow fadeInUp" data-wow-delay="0.2s">New Toys Collection</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.4s">Collection ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magnam veniam rcitation</p>
+                                <div class="collection-btn mt-35">
+                                    <a href="index.html#" class="btn">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- new-collection-end -->
+            <!-- insta-post -->
+            <div class="insta-post fix">
+                <div class="container-fluid p-0">
+                    <div class="row insta-active no-gutters">
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_01.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_02.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_03.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_04.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_05.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_06.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_01.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 p-0">
+                            <div class="single-insta-post">
+                                <div class="insta-thumb">
+                                    <img src="img/instagram/insta_02.jpg" alt="img">
+                                </div>
+                                <a href="index.html#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- insta-post-end -->
+        </main>
+        <!-- main-area-end -->
+        <!-- footer -->
+        <footer class="footer-bg pt-95 pb-100 p-relative fix" style="background-image:url('img/bg/footer_bg.jpg')">
+            <div class="footer-shape f-shape1 d-none d-xl-block wow fadeInLeft" data-wow-delay="0.2s"><img src="img/shape/footer_shape.png" alt="img"></div>
+            <div class="footer-shape f-shape2 wow slideInDown" data-wow-delay="0.2s"><img src="img/shape/features_cartoon.png" alt="img"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-menu mb-20">
+                            <ul>
+                                <li><a href="index.html#">Home</a></li>
+                                <li><a href="index.html#">Shop</a></li>
+                                <li><a href="index.html#">Blog</a></li>
+                                <li><a href="index.html#">Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="copyright-text">
+                            <p>&copy; Copyright dynamicweblab 2019. ALL Right Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-social text-right mb-15">
+                            <ul>
+                                <li><a href="index.html#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="index.html#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="index.html#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a href="index.html#"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="c-cards text-right">
+                            <img src="img/bg/credit_cards.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-end -->
+
+        <!-- Newsletter Popup Start -->
+        <div class="newsletter-popup" id="subscribe-popup">
+            <div class="newsletter-popup-modal">
+                <a href="index.html#" class="custom-close popup-close">
+                    <i class="ti-close"></i>
+                </a>
+                <div class="popup-content d-flex justify-content-end" style="background-image:url('img/newsletter/newsletter_img.jpg')">
+                    <div class="popup-body">
+                        <h2>Newsletter</h2>
+                        <p>Subscribe now and receive a -50%
+                        coupon code.</p>
+                        <div class="popup-form mt-35">
+                            <form action="index.html#">
+                                <input type="text" placeholder="Your e-mail address">
+                                <button class="btn">Subscribe Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter Popup End -->
+
+
+
+		<!-- JS here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/parallax.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
